@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Orange: hsl(26, 100%, 55%);
+    --Pale-orange: hsl(25, 100%, 94%);
+    --Very-dark-blue: hsl(220, 13%, 13%);
+    --Dark-grayish-blue: hsl(219, 9%, 45%);
+    --Grayish-blue: hsl(220, 14%, 75%);
+    --Light-grayish-blue: hsl(223, 64%, 98%);
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 0.5rem 150px 0 150px;
+}
+
+.navbar {
+    height: 100px;
+    display:  flex;
+    border-bottom: 1px solid var(--Grayish-blue);
+}
+
+.navbar-left{
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+
+
+.navbar-right{
+    display: flex;
+    width: 30px;
+}
+
+.navbar-items{
+    margin-left: 4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-link{
+    margin-left: 1rem;
+    color: var(--Dark-grayish-blue);
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.avatar-img-container{
+    width: 50px;
+    height: 50px;
+    margin-left: 1rem;
+}
+
+.avatar-img-container img{
+    width: 100%;
+}
+
+main{
+    margin-top: 5rem;
+    display: flex;
+}
+
+.main-left{
+    height: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.5rem;
+}
+
+
+.main-right{
+    height: 500px;
+    width: 50%;
+}
+
+.main-left-header{
+    width: 65%;
+    border-radius: 1rem;
+
+}
+
+.main-left-header img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.main-left-foother{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin-top: 1.5rem;
+}
+
+.main-left-foother-img-container{
+    height: 80px;
+    width: 80px;
+    border-radius: 0.5rem;
+}
+
+.main-left-foother-img-container img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.para{
+    height: 40px;
+    color: orange;
+    font-weight: 400;
+}
+
+.lol{
+    text-decoration-line: line-through;
+    height: 50px;
+}
+
+.de{
+    display: flex;
+}
+p{
+    height: 50px;
+}
+
+.bo{
+    height: 60px;
+}
+.encadrer-un-contenu{
+    background-color:hsl(25, 100%, 94%) ;
+    color: hsl(26, 100%, 55%);
+}
